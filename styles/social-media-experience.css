@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: linear-gradient(to right top, #0e1a40, #324a99, #5477e7);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #d1d5e4;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.click {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: #061135;
+    color: #d1d5e4;
+    font-size: 27px;
+    padding: 9px;
+    border-radius: 10px 10px 0 0;
+}
+
+.visited {
+    color: #d1d5e4;
+}
+
+.visited:visited {
+    color: rgb(3, 151, 151);
+}
+
+.header {
+    font-size: 40px;
+}
+
+.sub-header {
+    font-size: 27px;
+    line-height: 0.2;
+}
+
+.font {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.position {
+    padding: 1em;
+    position: relative;
+    justify-content: space-around;
+}
+
+.display1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.font1 {
+    font-size: 27px;
+    padding: 15px;
+}

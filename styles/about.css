@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 4px 4px 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: linear-gradient(to right top, #0e1a40, #324a99, #5477e7);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #d1d5e4;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.header-container {
+    padding: 0 0 20px 0;
+}
+
+.click {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: #061135;
+    color: #d1d5e4;
+    font-size: 27px;
+    padding: 9px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header {
+    font-size: 40px;
+}
+
+.sub-header {
+    font-size: 27px;
+}
+
+.padding {
+    padding: 10px 20px;
+    font-size: 16.5px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.position {
+    padding: 1em;
+    position: relative;
+}
+
+.video {
+    text-align: center;
+    border: transparent;
+    border-color: #0e1a40;
+    border: 0px;
+}
+
+.display1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.font {
+    font-size: 27px;
+    padding: 15px;
+}
+
+.font1 {
+    font-size: 22px;
+    padding: 15px;
+}
+
+.rt {
+    color: #d1d5e4;
+}
+
+.rt:visited {
+    color: rgb(7, 156, 156);
+}
+
+.more-padding {
+    padding: 10px 0;
+}
+
+.visited {
+    color: #d1d5e4;
+}
+
+.visited:visited {
+    color: teal;
+}
+
+
+/* This is what I used before you changed our lives and showed us flex. Keeping it in case I have trouble down the line.
+.position1{
+  padding: 1em;     
+  position: absolute;
+  left: 588px ;  
+  font-size: 27px;
+}
+.position2{
+  padding: 1em;     
+  position: absolute;
+  left: 600px ;  
+  top: 165px;
+  font-size: 22px;
+}
+
+.position3{
+  padding: 1em;     
+  position: absolute;
+  left: 600px ;  
+  top: 265px;
+  font-size: 22px;
+}
+*/

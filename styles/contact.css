@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.body {
+    background-image: linear-gradient(to right top, #0e1a40, #324a99, #5477e7);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #d1d5e4;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.header {
+    font-size: 25px;
+}
+
+.click {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: #061135;
+    color: #d1d5e4;
+    font-size: 27px;
+    padding: 9px;
+    border-radius: 10px 10px 0 0;
+}
+
+.visited {
+    color: #d1d5e4;
+}
+
+.visited:visited {
+    color: teal;
+}
+
+.font {
+    font-size: 23px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.image {
+    background-color: white;
+    border-radius: 60%;
+}
+
+.color {
+    color: #d1d5e4;
+}
+
+.color:visited {
+    color: teal;
+}
+
+.facebook {
+    padding: 10px;
+    animation: facebook;
+    animation-duration: 2s;
+}
+
+@keyframes facebook {
+    0% {
+        opacity: 0;
+        transform: translate(-500px, 0)
+    }
+    90% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.twitter {
+    padding: 10px;
+    animation-name: twitter;
+    animation-duration: 2.5s;
+}
+
+@keyframes twitter {
+    0% {
+        opacity: 0;
+        transform: translate(-500px, 0)
+    }
+    90% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.messenger {
+    padding: 10px;
+    animation-name: messenger;
+    animation-duration: 4.3s;
+}
+
+@keyframes messenger {
+    0% {
+        opacity: 0;
+        transform: translate(-500px, 0)
+    }
+    90% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
